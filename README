@@ -1,0 +1,41 @@
+gismo: Git In Slow-Motion
+
+This project is an attempt to help elucidate what is involved conceptually
+behind the scenes in the execution of common git commands. What configuration
+settings are consulted? What objects are created? What are the interactions
+with remotes? How does git do what it does?
+
+The challenge here is to walk the fine line between overwhelming with _too_
+much detail and not providing enough information to enable the reader to
+independently reason out solutions from first principles. Many books and
+tutorials provide a good foundation for the basics, but eventually the
+descriptions of commands involve an increasing amount of hand-waving. Git In
+Slow-Motion is an attempt to slow down and analyze some of these steps in
+greater detail. It is meant as a supplementary source of information, not a
+primary one.
+
+Initial topic candidates:
+
+- tracking branches
+- git branch
+- git merge
+- git rebase
+- git add -i
+- git pull
+- git fetch
+
+Another aspect of this project is to facilitate development of good git habits
+in a safe, directed way through a series of pedagogically contrived exercises
+accompanied by the materials necessary to do them (i.e. a git repository with
+all of the necessary branches and commits). These exercises ought to aid in
+teaching git by providing first-hand practical experience of repository
+manipulation together with guided inspection of the results.
+
+Initial walkthrough candidates:
+
+- git rebase -i
+  - teasing apart monolithic commits into logically independent commits
+  - recognizing and squashing commits that benefit from consolidation
+  - reordering and fixup-ing multiple whitespace-related commits
+- using rebase to avoid superfluous merge commits
+- recognizing when a rebase would be problematic
