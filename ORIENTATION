@@ -1,0 +1,12 @@
+BRANCH
+The "base" branch is the foundation for all practical exercises. Every
+exercise branch will have this one as its basis.
+
+COMMITS
+No notable commits.
+
+INSPECT
+git branch
+
+WHERE NEXT?
+git checkout ex1
